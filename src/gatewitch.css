@@ -1,0 +1,43 @@
+
+
+#gw-window {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    padding:  20px;
+
+    background: #666;
+    color: #eee;
+    border: #aaa;
+
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 140%;
+}
+
+#gw-window h1 {
+    color: #fff;
+}
+
+#gw-window label {
+    margin-right: 20px;
+}
+
+#gw-window a {
+    color: #ffcc33;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+#gw-window a:hover {
+    color: #f6d572;
+    border-bottom: 1px solid;
+}
+
+#gw-window .tiny {
+    font-size: 70%;
+}
+
+#gw-window .screen {
+    display: none;
+}

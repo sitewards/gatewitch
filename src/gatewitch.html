@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>gatewitch</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.corners.min.js"></script>
+    <script type="text/javascript" src="js/gatewitch.js"></script>
+    <script type="text/javascript" src="js/database.js"></script>
+    <script type="text/javascript" src="js/account.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/screenController.js"></script>
+    <link href="gatewitch.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="gw-window">
+    <div id="gw-login" class="screen">
+        <h1>Welcome to Gatewitch!</h1>
+        <p>Please enter your username to start.</p>
+        <form action="" id="gw-login-form">
+            <label for="gw-login-name">User Name:</label><input id="gw-login-name" type="text">
+            <input type="button" id="gf-login-button" value="Start">
+        </form>
+        <p class="tiny">You don't have an username, yet? Let's set one up: <a href="javascript:void(0)" id="gw-lnk-account">Go to account creation!</a> </p>
+    </div>
+    <div id="gw-account" class="screen">
+        <h1>Gatewitch Account Creation</h1>
+        <p>Please enter your username to start.</p>
+        <form action="" id="gw-account-form">
+            <label for="gw-account-name">User Name:</label><input id="gw-account-name" type="text">
+            <input type="button" id="gf-account-button" value="Create">
+            <p class="tiny">This user name is going to be your unique identifier for Gatewitch.</a> </p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
